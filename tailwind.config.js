@@ -11,7 +11,8 @@ module.exports = {
       }
     },
     fontFamily:{
-      'name-font' : 'Sriracha'
+      'name-font' : 'Sriracha',
+      'text-font' : 'Poppins'
     }
   },
   plugins: [],

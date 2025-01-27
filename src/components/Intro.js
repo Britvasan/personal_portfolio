@@ -3,7 +3,7 @@ import IntroImg from '../assets/Homepage.png'
 import { AiOutlineTwitter, AiOutlineFacebook, AiOutlineLinkedin ,AiOutlineInstagram, AiOutlineGithub } from "react-icons/ai";
 const Intro = () => {
   const config = {
-    subtitle:"I'm a Junior Web Developer",
+    subtitle:"A Python Developer",
     social:{
       twitter:'https://x.com/brittoxic_',
       facebook:'https://www.facebook.com/brit.adictz/',

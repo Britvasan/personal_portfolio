@@ -1,7 +1,7 @@
 import React from 'react';
-import websiteImg1 from '../assets/socialmedia.png';
-import websiteImg2 from '../assets/simpleblog.jpg';
-import websiteImg3 from '../assets/codepen_clone.jpg';
+import websiteImg1 from '../assets/WeatherApp.PNG';
+import websiteImg2 from '../assets/TicTacToe.PNG';
+import websiteImg3 from '../assets/Blogapp.PNG';
 
 const Projects = () => {
   const config = {
@@ -10,20 +10,20 @@ const Projects = () => {
       {
         id: 1,
         image: websiteImg1,
-        description: "A Basic Social Media App project. Built With React.js.",
-        link: "https://github.com/Britvasan/react_social_media_app"
+        description: "A React Weather App project using React.js.",
+        link: "https://brit-weather-app.netlify.app/"
       },
       {
         id: 2,
         image: websiteImg2,
-        description: "A Basic Blog Website Layout Built with Bootstrap and Html.",
-        link: "https://github.com/Britvasan/bootstrap5-blog"
+        description: "A Tic Tac Toe Game using React.js",
+        link: "https://brit-tic-tac-toe.netlify.app/"
       },
       {
         id: 3,
         image: websiteImg3,
-        description: "Here is the Codepen clone project. Built with React.js.",
-        link: "https://github.com/Britvasan/react_codepen_clone"
+        description: "Django Blog Application using Django and Bootstrap",
+        link: "https://github.com/Britvasan/django_blog_app"
       }
     ]
 
@@ -38,7 +38,7 @@ const Projects = () => {
           <h1 className="text-3xl border-b-4 border-secondary mb-5 w-[130px] font-semibold">
             Projects
           </h1>
-          <p>{config.line1}</p>
+          <p className='text-xl'>{config.line1}</p>
         </div>
       </div>
       <div className="w-full">
@@ -53,7 +53,7 @@ const Projects = () => {
             >
               <div className="relative">
                 <img
-                  className="h-[200px] w-[500px] object-cover"
+                  className="h-[200px] w-[500px]"
                   src={project.image}
                   alt={`Preview of ${project.description}`}
                 />

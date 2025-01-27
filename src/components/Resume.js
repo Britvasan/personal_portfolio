@@ -2,7 +2,7 @@ import React from 'react'
 import ResumeImg from '../assets/Resume.jpg'
 const Resume = () => {
     const config = {
-        link: "https://www.dropbox.com/scl/fi/zq8be02ar6juxhwk2vk3s/Brit_resume.pdf?rlkey=rg2641iyfaxqxt8nl3yey2ukl&st=usdnsvx3&dl=0",
+        link: "https://drive.google.com/file/d/1iaJXEFmDzy44f70gNe5RaCCe9BzLoEHw/view?usp=sharing",
         image: ResumeImg
     }
   return (

@@ -2,7 +2,7 @@ import React from 'react'
 import AboutImg from '../assets/About.png'
 const About = () => {
     const config = {
-        line1 : "Hello, I'm Britvasan, A Highly Motivated Web Developer with an internship experience as a Full Stack Developer. Skilled in Python, JavaScript, React.js, Django, Bootstrap, Tailwind CSS, MySQL with strong Expertise in Both front-end and back-end technologies.",
+        line1 : "Hello, I am Britvasan, A Highly Motivated Python Developer with an internship experience as a Full Stack Developer. Skilled in Python, JavaScript, React.js, Django, Bootstrap, Tailwind CSS, MySQL with strong Expertise in Both front-end and back-end technologies.",
         listitem1 : "Web Designing",
         listitem2 : "Playing Cricket",
         listitem3 : "Learning New Technologies",
